@@ -42,7 +42,29 @@
 
 ////////////////////////////////////////////////////////////////////////
 
-let x = 10;
-let y = "10";
+// let x = 10;
+// let y = "10";
 
-console.log(x === y); // tripe '=' cheks the comparison and also the variabel type.
+// console.log(x === y); // tripe '=' cheks the comparison and also the variabel type.
+
+///////////////////////////////////////////////////////////////////////////////
+
+// logical operator --- > !
+
+// if (!true) {
+//     console.log("true");
+    
+// } else {
+//     console.log("false");
+    
+// }
+
+// logical operator ---- &
+
+if ( true && true ){
+    console.log("true");
+    
+} else {
+    console.log("false");
+    
+}
