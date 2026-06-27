@@ -72,13 +72,72 @@
 //////////////////////////////////////////////////////////////////////////////
 //  switch 
 
+// let day = 1;
+
+// switch (day) {
+//     case 1:
+//         console.log("Monday");
+//         break;
+//     case 2:
+//         console.log("Tuesday");
+//         break;
+//     case 3:
+//         console.log("Wednesday");
+//         break;
+//     default:
+//         console.log("Invalid day");
+// }
+
 /////////////////////////////////////////////////////////////////////////////
 
-// for  loop 
+// for loop
 
-for ( let i = 0; i <= 10; i++){
-    console.log(i);
-    
+// for (let i = 0; i <= 10; i++) {
+//     console.log(i);
 // }
-//----------------while loop ------------------------
 
+// -------------------------------------------
+
+// while loop
+
+// let i = 0;
+// while (i <= 10) {
+//     console.log(i);
+//     i++;
+// }
+
+// -------------------------------------------
+
+// do while loop
+
+// let i = 0;
+// do {
+//     console.log(i);
+//     i++;
+// } while (i <= 10);
+
+
+// -------------------------------------------
+// function
+
+function add(x, y) {
+    return x + y;
+}
+
+let result = add(10, 20);
+console.log(result);
+
+
+// public static String add(int x, int y) {
+//     return x + y;
+// }
+
+// -------------------------------------------
+
+// array
+
+let numbers = [1, "saman", true, 4, 5];
+
+for ( let i = 0; i < numbers.length; i++){
+    console.log(numbers[i]);
+}
