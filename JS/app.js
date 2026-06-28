@@ -167,9 +167,20 @@
 //     console.log("Fail");
 // }
 ////////////////////////////////////////////////////////////////////
-let ar = [1,2,3,4,5,6];
+// let ar = [1,2,3,4,5,6];
 
-for (let i = 0; i < ar.length; i++){
- console.log(ar[i]);
+// for (let i = 0; i < ar.length; i++){
+//  console.log(ar[i]);
  
+// }
+///////////////////////////////////////////////////////////////////
+//--------------positive negative finder -------------------
+let num = -5;
+
+if (num > 0) {
+    console.log("Positive");
+} else if (num < 0) {
+    console.log("Negative");
+} else {
+    console.log("Zero");
 }
