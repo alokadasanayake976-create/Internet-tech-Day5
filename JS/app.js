@@ -187,12 +187,21 @@
 ////////////////////////////////////////////////////////////////////
 
 //--------------even or odd finder -----------------
-let num = 1;
+// let num = 1;
 
-if ( num % 2 === 0){
-    console.log("even");
+// if ( num % 2 === 0){
+//     console.log("even");
     
-}else{
-    console.log("odd");
+// }else{
+//     console.log("odd");
     
-}
+// }
+////////////////////////////////////////////////////////////////////
+//---------------------Add two numbers -----------------
+let num1 = 12;
+let num2 = 13;
+
+let sum ;
+sum = num1 + num2;
+
+console.log(sum);
