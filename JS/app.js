@@ -157,12 +157,19 @@
 // console.log(customer);
 
 //////////////////////////////////////////////////////////////////
-let num = 10;
+// let num = 10;
 
-if (num >= 65) {
-    console.log("A pass");
-} else if (num >= 55) {
-    console.log("B pass");
-} else {
-    console.log("Fail");
+// if (num >= 65) {
+//     console.log("A pass");
+// } else if (num >= 55) {
+//     console.log("B pass");
+// } else {
+//     console.log("Fail");
+// }
+////////////////////////////////////////////////////////////////////
+let ar = [1,2,3,4,5,6];
+
+for (let i = 0; i < ar.length; i++){
+ console.log(ar[i]);
+ 
 }
