@@ -147,11 +147,22 @@
 //  object 
 
 
-let customer = {
-    name: "Saman",
-    age: 18,
-    isAfterAL: false,
-    salary: 7500.0
-}
+// let customer = {
+//     name: "Saman",
+//     age: 18,
+//     isAfterAL: false,
+//     salary: 7500.0
+// }
 
-console.log(customer);
+// console.log(customer);
+
+//////////////////////////////////////////////////////////////////
+let num = 10;
+
+if (num >= 65) {
+    console.log("A pass");
+} else if (num >= 55) {
+    console.log("B pass");
+} else {
+    console.log("Fail");
+}
